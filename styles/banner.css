@@ -1,0 +1,12 @@
+#banner {
+	height: 75vh;
+	background-image: url("../images/porte.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:white;
+	text-shadow: 1px 2px 3px black;
+}

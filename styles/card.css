@@ -1,0 +1,33 @@
+.cards{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 16px;
+}
+
+.card{
+	background-color: white;
+	padding: 16px;
+	border-radius: 6px;
+	box-shadow: 1px 2px 4px 6px rgba(0, 0, 0, 0.6);
+	text-align: center;
+}
+
+.card img{
+	height: 250px;
+	width: 250px;
+	object-fit: cover;
+}
+
+@media (min-width: 576px) {...}
+@media (min-width: 768px) {
+	.cards {
+		grid-template-columns: 1fr 1fr;
+	}
+@media (min-width: 992px) {
+	.cards {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+@media (min-width: 1200px) {...}
+@media (min-width: 1400px) {...}
+}
+}
